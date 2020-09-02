@@ -7,12 +7,12 @@ spec:
   type: git
   params:
     - name: url
-      value: https://github.com/wtistang/quote-backend
+      value: https://wintonjkt:RahasiaDenpasar123@github.com/wintonjkt/quote-backend.git"
 ---
 apiVersion: tekton.dev/v1alpha1
 kind: PipelineResource
 metadata:
-  name: quote-frontend-image
+  name: quote-backend-image
 spec:
   type: image
   params:
